@@ -1,4 +1,4 @@
-# My Study Note on AI/LLM Engineering
+# My projects on AI/LLM Engineering
 This repo lists the AI/LLM engineering projects I have practiced and the skills I have learnt.
 
 ### 1. Chatbot with voice 
