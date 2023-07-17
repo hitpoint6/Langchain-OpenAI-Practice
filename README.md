@@ -2,15 +2,15 @@
 This repo lists the AI/LLM engineering projects I have practiced and the skills I have learnt.
 
 ### 1. Chatbot with voice 
-        Conversational chatbot with voice input and character-like voice output.
-        Stack: openai (whisper, gpt-3.5), gradio, elevenlabs
-### 2. fine tuning with movie dialogues
-       This notebook scrape the dialogs between Theodore and Samantha from movie Her using .
+       Conversational chatbot with voice input and character-like voice output.
+       Stack: openai (whisper, gpt-3.5), gradio, elevenlabs
+### 2. Fine tuning with movie dialogues
+       This notebook scrape the dialogs between Theodore and Samantha from movie Her
        Feed them into openAI for fine tuning and retrieve a new model for query.
        Stack: beautifulsoup, openai fine_tunes, davinci
 ### 3. Retrieval Augmentation From Web Scraping 
        Answer questions using knowledge in the domain www.standford.edu.
-       Stack: web scraping, requests, beautifulsoup, pandas, tiktoken, csv as vectorstore, openai, numpy, openai embedding, openai gpt-4
+       Stack: requests, beautifulsoup, pandas, tiktoken, csv as vectorstore, openai, numpy, openai (ada, gpt-4)
 ### 4. Langchain agent
         Answer latest questions about 2023 winter xgame with google search.
         Stack: serpapi (google search), langchain (self-ask-with-search agent, zero-shot-rect-description agent)
@@ -19,7 +19,7 @@ This repo lists the AI/LLM engineering projects I have practiced and the skills 
         Stack: langchain (ConversationBufferMemory, ConversationSummaryMemory, ConversationBufferWindowMemory, ConversationKGMemory)
 ### 6. Image to text conversion 
        Extract text from image and pdf.
-       tesseract, pytesseract, PIL.Image, pypdf2
+       Stack: tesseract, pytesseract, PIL.Image, pypdf2
 ### 7. Recursive Text Spliter 
        Build a text splitter from scratch.
        Stack: recurssion algorithm.
@@ -32,4 +32,4 @@ This repo lists the AI/LLM engineering projects I have practiced and the skills 
        - youtube-transcript-api: Alternatively to get the transcript directly if it is subtitle enabled.
 ### 9. Retrieval agumented conversational agent 
        Chat with an agent on topics related to the nccn liver cancer pdf handbook with retriveal augmentation. 
-       Stack: langchain (RecursiveCharacterTextSplitter, ConversationBufferMemory, conversational-react-description agent)tiktoken, pinecone
+       Stack: pinecone, langchain (RecursiveCharacterTextSplitter, ConversationBufferMemory, conversational-react-description agent), tiktoken
