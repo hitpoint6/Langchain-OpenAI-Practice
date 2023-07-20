@@ -102,6 +102,7 @@ class Agent:
                 return res["choices"][0]["message"]["content"]
             elif finish_reason == "function_call":
                 func_name = res["choices"][0]["message"]["function_call"]["name"]
+                print("function is called: ", func_name)
                 func_args = res["choices"][0]["message"]["function_call"]["arguments"]
                 func = self.function_maps[func_name]
                 func_args = ast.literal_eval(func_args)
