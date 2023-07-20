@@ -3,17 +3,22 @@ This repo lists the AI/LLM projects I have built and the skills I have learnt.
 
 ### Bank Call Center
        A chatbot that guides a user's money transfer requests. It can ask for more information if needed and execute the transfer.
-       Stack: gpt-4, prompt engineering(Role setting, Few Shot Examples, Data Extraction)
+       Stack: gpt-4, prompt engineering(Role setting, Few Shot Examples, Data Extraction), openai function call api
 ### Chatbot with voice
        Conversational chatbot with voice input and character-like voice output.
        Stack: openai (whisper, gpt-3.5), gradio, elevenlabs
+### Retrieval Augmentation From Web Scraping 
+       Answer questions using knowledge in the domain www.standford.edu.
+       Stack: requests, beautifulsoup, pandas, tiktoken, csv as vectorstore, openai, numpy, openai (ada, gpt-4)
 ### Fine tuning with movie dialogues
        This notebook scrape the dialogs between Theodore and Samantha from movie Her
        Feed them into openAI for fine tuning and retrieve a new model for query.
        Stack: beautifulsoup, openai fine_tunes, davinci
-### Retrieval Augmentation From Web Scraping 
-       Answer questions using knowledge in the domain www.standford.edu.
-       Stack: requests, beautifulsoup, pandas, tiktoken, csv as vectorstore, openai, numpy, openai (ada, gpt-4)
+### OpenAI function call Agent
+       Built a langchain like agent using OpenAI's function call API. Capable of
+       - Intelligently choose a function to improve answer for an given question.
+       - Generate a description of a function given its source code.
+       Stack: OpenAI function call API
 ### Langchain agent
         Answer latest questions about 2023 winter xgame with google search.
         Stack: serpapi (google search), langchain (self-ask-with-search agent, zero-shot-rect-description agent)
