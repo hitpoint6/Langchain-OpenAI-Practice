@@ -1,7 +1,7 @@
 # AI/LLM Projects
 This repo lists the AI/LLM projects I have built and the skills I have learnt.
 
-### Bank Call Center
+### Bank Call Center Chatbot
        A chatbot that guides a user's money transfer requests. It can ask for more information if needed and execute the transfer.
        Stack: gpt-4, prompt engineering(Role setting, Few Shot Examples, Data Extraction), openai function call api
 ### Chatbot with Voice
@@ -19,6 +19,12 @@ This repo lists the AI/LLM projects I have built and the skills I have learnt.
        - Intelligently choose a function to improve answer for an given question.
        - Generate a description of a function given its source code.
        Stack: OpenAI function call API
+### Find Topics
+       Find topics in a given dataset. Useful for finding topics in texts.
+       Stack: sklearn.cluster.KMeans, silhouette_score
+### Chat Stream
+       Chat streaming chunk the outputs and send them to client section by section.
+       Stack: OpenAI ChatCompletion Stream mode
 ### Langchain Agent
         Answer latest questions about 2023 winter xgame with google search.
         Stack: serpapi (google search), langchain (self-ask-with-search agent, zero-shot-rect-description agent)
@@ -28,9 +34,6 @@ This repo lists the AI/LLM projects I have built and the skills I have learnt.
 ### Image to Text Conversion 
        Extract text from image and pdf.
        Stack: tesseract, pytesseract, PIL.Image, pypdf2
-### Recursive Text Spliter 
-       Build a text splitter from scratch.
-       Stack: recurssion algorithm.
 ### Transcribe Youtube to Text 
        Convert the youtube video: Inflection AI | The AI Friend Zone to text 
        Stack:
@@ -41,6 +44,6 @@ This repo lists the AI/LLM projects I have built and the skills I have learnt.
 ### Retrieval Agumented Conversational Agent 
        Chat with an agent on topics related to the nccn liver cancer pdf handbook with retriveal augmentation. 
        Stack: pinecone, langchain (RecursiveCharacterTextSplitter, ConversationBufferMemory, conversational-react-description agent), tiktoken
-### Find Clusters
-       Find clusters in a given dataset. Useful for finding topics in texts.
-       Stack: sklearn.cluster.KMeans, silhouette_score
+### Recursive Text Spliter 
+       Build a text splitter from scratch.
+       Stack: recurssion algorithm.
