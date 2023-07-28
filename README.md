@@ -41,3 +41,6 @@ This repo lists the AI/LLM projects I have built and the skills I have learnt.
 ### Retrieval Agumented Conversational Agent 
        Chat with an agent on topics related to the nccn liver cancer pdf handbook with retriveal augmentation. 
        Stack: pinecone, langchain (RecursiveCharacterTextSplitter, ConversationBufferMemory, conversational-react-description agent), tiktoken
+### Find Clusters
+       Find clusters in a given dataset. Useful for finding topics in texts.
+       Stack: sklearn.cluster.KMeans, silhouette_score
