@@ -19,9 +19,9 @@ This repo lists the AI/LLM projects I have built and the skills I have learnt.
        - Intelligently choose a function to improve answer for an given question.
        - Generate a description of a function given its source code.
        Stack: OpenAI function call API
-### Find Topics
-       Find topics in a given dataset. Useful for finding topics in texts.
-       Stack: sklearn.cluster.KMeans, silhouette_score
+### Summarize Topics
+       Find topics in a given dataset.
+       Stack: LLM summary, mapreduce alogrithm, sklearn.cluster.KMeans, silhouette_score
 ### Chat Stream
        Chat streaming chunk the outputs and send them to client section by section.
        Stack: OpenAI ChatCompletion Stream mode
