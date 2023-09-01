@@ -1,6 +1,9 @@
 # AI/LLM Projects
 This repo lists the AI/LLM projects I have built and the skills I have learnt.
 
+### Deploy Open Source LLM
+       Deployed Open Source LLM on google Colab for inference. Use Llama-2-70B as conversational agent.
+       Stack: Llama-2-70B, MPT-30B, Langchain Conversational Agent
 ### Bank Call Center Chatbot
        A chatbot that guides a user's money transfer requests. It can ask for more information if needed and execute the transfer.
        Stack: gpt-4, prompt engineering(Role setting, Few Shot Examples, Data Extraction), openai function call api
